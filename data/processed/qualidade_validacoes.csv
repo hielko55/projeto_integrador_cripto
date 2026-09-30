@@ -1,0 +1,14 @@
+verificacao,status,detalhe
+R1: PF + PJ = subtotal (exterior),OK,erro máx. 0.000000 R$ mi
+R1: PF + PJ = subtotal (sem exchange),OK,erro máx. 0.000000 R$ mi
+R1: subtotais + exchanges BR = total geral,OK,erro máx. 0.000000 R$ mi
+R3: % feminino + masculino = 100 (operações),OK,desvio máx. 0.000 p.p.
+R3: % feminino + masculino = 100 (valor),OK,desvio máx. 0.000 p.p.
+R4: valor médio = valor total / nº de operações,OK,erro máx. R$ 0.000000
+R4: sem duplicatas (ativo × mês),OK,0 duplicatas
+R4: sem valores negativos,OK,0 ocorrências
+R4: sem valores nulos,OK,0 células vazias
+Séries mensais contínuas (sem meses faltando),OK,"08/2019 a 06/2026, 83 meses"
+"R1, R2 e R3 cobrem os mesmos meses",OK,comparação mês a mês
+R4 cobre parte do total do R1 (esperado: < 100%),OK,cobertura entre 75% e 100% (média 93%)
+R2: quebras bruscas em CPF/CNPJ únicos,ATENÇÃO,12 meses sinalizados (ver aba Qualidade)
