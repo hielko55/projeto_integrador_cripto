@@ -15,10 +15,10 @@ DIR_DOCS = RAIZ / "docs"
 ARQUIVO_FONTE = DIR_RAW / "criptoativos_dados_abertos_20260826.xls"
 
 # ------------------------------------------------ organização parceira (PREENCHER)
-ORGANIZACAO = "Organização parceira (preencher)"
-SETOR = "Setor / área (preencher)"
-PUBLICO_ALVO = "Quem usará o painel (preencher)"
-DECISAO_APOIADA = "Decisão que o painel apoia (preencher)"
+ORGANIZACAO = "Organização privada (setor financeiro)"
+SETOR = "Financeiro / investimentos"
+PUBLICO_ALVO = "Pessoas interessadas no assunto de investimento"
+DECISAO_APOIADA = "Avaliar risco e conformidade de declarações de criptoativos"
 
 # ------------------------------------------------------------------ fonte
 FONTE = (
