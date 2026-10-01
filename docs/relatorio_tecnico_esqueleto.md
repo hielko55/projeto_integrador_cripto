@@ -6,16 +6,16 @@
 > Itens marcados **[PREENCHER]** dependem da organização parceira. Itens marcados **[AUTO]** têm os números em `docs/achados_gerados.md` e `data/processed/`.
 
 ## 1. Organização parceira
-[PREENCHER: identificação, natureza (pública/privada/sem fins lucrativos), setor, breve contextualização.]
+**Estrutura Contábil** — escritório de contabilidade de natureza privada, sediado em Brasília-DF, atuando na prestação de serviços de assessoria contábil e tributária. O vínculo com o projeto foi estabelecido por relação familiar: a representante da organização, Luciana, proprietária e gestora do escritório, é tia do autor do projeto.
 
 ## 2. Necessidade ou problema identificado
-[PREENCHER: a necessidade nas palavras da organização, público do painel e decisões a apoiar — copiar de `registro_interacoes.md`.]
+Segundo a representante da organização, os clientes do escritório frequentemente trazem dúvidas sobre investimento e movimentação de criptoativos. O público do painel são os clientes do escritório interessados em investir em criptoativos. As decisões que o painel deve apoiar são: identificar quais criptoativos vêm ganhando participação de mercado e qual a tendência geral de investimento da "massa", servindo de referência visual e objetiva nas conversas da organização com seus clientes sobre o tema. O resultado esperado pela organização é ter essa referência objetiva disponível para orientar essas conversas (detalhamento completo em `docs/registro_interacoes.md`).
 
 ## 3. Interação com a organização
-[PREENCHER: resumo do diário de interações (datas, formatos, participantes) e referência às evidências em `evidencias/`.]
+A primeira interação ocorreu em **29/09/2026**, por ligação via WhatsApp entre o autor do projeto e Luciana (proprietária/gestora da Estrutura Contábil), na qual foi apresentada a proposta do painel e levantada a necessidade descrita acima; Luciana aprovou o escritório como organização parceira e autorizou a continuidade do projeto. As etapas seguintes — validação dos KPIs junto à organização, apresentação/devolutiva do painel e coleta de feedback — ainda não ocorreram; serão registradas em `docs/registro_interacoes.md` conforme acontecerem, com evidências em `evidencias/`.
 
 ## 4. Objetivos
-- Geral: transformar os dados abertos de criptoativos da Receita em informação para a decisão de [ORGANIZAÇÃO].
+- Geral: transformar os dados abertos de criptoativos da Receita em informação para a decisão da Estrutura Contábil.
 - Específicos: (a) mensurar volume e tendência; (b) identificar canais e perfil de declarantes; (c) caracterizar o mercado por ativo; (d) avaliar a qualidade dos dados; (e) entregar painel interativo e recomendações.
 
 ## 5. Base de dados
@@ -38,10 +38,27 @@
 [Seguir `docs/roteiro_storytelling.md`.]
 
 ## 10. Resultados e contribuições para a organização
-[PREENCHER com base no feedback da devolutiva registrado em `registro_interacoes.md`.]
+**Pendente de devolutiva.** A apresentação final do painel à organização e a coleta de feedback ainda não ocorreram; esta seção será concluída após esse encontro, com base no que for registrado em `docs/registro_interacoes.md`.
+
+De forma preliminar, com base na necessidade identificada, espera-se que o painel contribua ao oferecer à organização:
+- uma visão objetiva de **quais criptoativos vêm ganhando participação** no mercado declarado à Receita (achados 2 e 3 em `docs/achados_gerados.md`), apoiando a conversa sobre tendências de investimento da "massa";
+- um indicador de **concentração e diversificação** do mercado (achado 3), útil para alertar clientes sobre o risco de concentrar investimentos em poucos ativos;
+- contexto sobre **canais de intermediação** (achado 4), relevante para orientar clientes sobre conformidade na declaração.
 
 ## 11. Conclusões e recomendações
-[PREENCHER usando o modelo de recomendações do roteiro; incluir limitações e trabalhos futuros, como recorte territorial e atualização mensal da base.]
+Principais achados da base de dados (08/2019–06/2026; detalhamento em `docs/achados_gerados.md`):
+1. o volume declarado de criptoativos está em expansão (+21,6% nos últimos 12 meses);
+2. stablecoins passaram a dominar o mercado (87,0% do valor negociado nos últimos 12 meses, ante 10,6% no início da série), enquanto o Bitcoin caiu de 57,3% para 7,3%;
+3. o mercado é altamente concentrado: os 5 maiores ativos somam 98,9% do valor (HHI de 5.061/10.000);
+4. exchanges no Brasil continuam à frente na intermediação, mas perderam espaço para operações sem exchange — P2P (de 17,0% para 22,4%);
+5. mulheres participam mais em número de operações do que em valor movimentado (ticket médio feminino ≈ 39% do masculino);
+6. os indicadores de declarantes únicos exigem leitura cautelosa, por quebras na série que a planilha não permite explicar.
+
+**Recomendação para a organização:** usar o painel como apoio visual nas conversas com clientes sobre tendência e popularidade de mercado (achados 1–4), deixando claro aos clientes que os dados mostram volume e participação declarados — não rentabilidade ou previsão de preço, que exigiria outra fonte de dados (a base da Receita não contém cotações).
+
+**Limitações:** dados nacionais e agregados (sem recorte por estado ou cliente); valores sujeitos a revisão pela própria Receita; a classificação de stablecoins é uma premissa do projeto, não um critério oficial da Receita; o Relatório 4 cobre em média 93% do total do Relatório 1.
+
+**Trabalhos futuros:** recorte territorial, caso a organização priorize clientes de uma região específica; atualização mensal da base conforme novos dados forem publicados pela Receita; incorporar dados de preço/mercado (fonte externa) caso a organização queira, no futuro, discutir rentabilidade e não apenas volume.
 
 ## Apêndice — Reprodutibilidade
 ```
