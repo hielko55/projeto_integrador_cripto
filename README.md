@@ -1,5 +1,7 @@
 # Projeto Integrador Extensionista — Criptoativos declarados à Receita Federal
 
+**Painel publicado:** https://projetointegradorcripto-ny8jdxyeju9jnj9cjaw2ak.streamlit.app/
+
 Painel analítico em **Python (pandas + Plotly + Streamlit)** construído sobre a planilha de dados abertos da Receita Federal (`criptoativos_dados_abertos_20260826.xls`, IN RFB nº 1.888/2019). Dados **públicos e agregados**: não exigem autorização.
 
 Disciplinas: Técnicas de Visualização de Dados e Business Intelligence.
@@ -57,7 +59,7 @@ O painel lê **somente** `data/processed/`. Para atualizar a base: substitua a p
 | Entrega | Onde está |
 |---|---|
 | Relatório técnico | `docs/relatorio_tecnico_esqueleto.md` |
-| Dashboard | `app/dashboard.py` |
+| Dashboard | `app/dashboard.py` (publicado em https://projetointegradorcripto-ny8jdxyeju9jnj9cjaw2ak.streamlit.app/) |
 | Código-fonte | `src/`, `notebooks/`, `tests/` |
 | Apresentação oral | `docs/roteiro_apresentacao.md` |
 | Caráter extensionista | `docs/registro_interacoes.md` + `evidencias/` |

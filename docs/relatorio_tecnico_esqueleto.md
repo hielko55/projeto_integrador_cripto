@@ -61,6 +61,8 @@ Principais achados da base de dados (08/2019–06/2026; detalhamento em `docs/ac
 **Trabalhos futuros:** recorte territorial, caso a organização priorize clientes de uma região específica; atualização mensal da base conforme novos dados forem publicados pela Receita; incorporar dados de preço/mercado (fonte externa) caso a organização queira, no futuro, discutir rentabilidade e não apenas volume.
 
 ## Apêndice — Reprodutibilidade
+**Painel publicado:** https://projetointegradorcripto-ny8jdxyeju9jnj9cjaw2ak.streamlit.app/
+
 ```
 pip install -r requirements.txt
 python -m src.pipeline

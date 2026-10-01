@@ -16,6 +16,7 @@ Legenda: ✅ pronto no projeto · ✍️ depende de você/da organização.
 ## 3.2 Dashboard
 - ✅ Streamlit + Plotly, 6 abas, filtro de período, tabela com download: `app/dashboard.py`
 - ✅ Testado com filtros extremos (1 mês, 3 meses, período inicial)
+- ✅ Publicado no Streamlit Community Cloud: https://projetointegradorcripto-ny8jdxyeju9jnj9cjaw2ak.streamlit.app/
 
 ## 3.3 Código-fonte
 - ✅ Scripts Python (`src/`), aplicação Streamlit (`app/`), notebook `.ipynb` (`notebooks/`), testes (`tests/`)
