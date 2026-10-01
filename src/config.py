@@ -14,11 +14,15 @@ DIR_DOCS = RAIZ / "docs"
 
 ARQUIVO_FONTE = DIR_RAW / "criptoativos_dados_abertos_20260826.xls"
 
-# ------------------------------------------------ organização parceira (PREENCHER)
-ORGANIZACAO = "Organização privada (setor financeiro)"
-SETOR = "Financeiro / investimentos"
-PUBLICO_ALVO = "Pessoas interessadas no assunto de investimento"
-DECISAO_APOIADA = "Avaliar risco e conformidade de declarações de criptoativos"
+# ------------------------------------------------ organização parceira
+ORGANIZACAO = "Estrutura Contábil (escritório de contabilidade, Brasília-DF)"
+SETOR = "Contabilidade / assessoria tributária"
+PUBLICO_ALVO = "Clientes do escritório interessados em investir em criptoativos"
+DECISAO_APOIADA = (
+    "Orientar clientes sobre quais criptoativos vêm ganhando participação de mercado "
+    "e qual a tendência geral de movimentação, como apoio à conversa sobre investimento "
+    "e conformidade na declaração à Receita Federal"
+)
 
 # ------------------------------------------------------------------ fonte
 FONTE = (
