@@ -15,13 +15,14 @@ DIR_DOCS = RAIZ / "docs"
 ARQUIVO_FONTE = DIR_RAW / "criptoativos_dados_abertos_20260826.xls"
 
 # ------------------------------------------------ organização parceira
-ORGANIZACAO = "Estrutura Contábil (escritório de contabilidade, Brasília-DF)"
+ORGANIZACAO = "Estrutura Contábil (escritório de contabilidade, Valparaíso de Goiás-GO)"
 SETOR = "Contabilidade / assessoria tributária"
-PUBLICO_ALVO = "Clientes do escritório interessados em investir em criptoativos"
+PUBLICO_ALVO = "Clientes do escritório que investem ou pensam em investir em criptoativos"
 DECISAO_APOIADA = (
-    "Orientar clientes sobre quais criptoativos vêm ganhando participação de mercado "
-    "e qual a tendência geral de movimentação, como apoio à conversa sobre investimento "
-    "e conformidade na declaração à Receita Federal"
+    "Apoiar a decisão de investimento em criptoativos dos clientes, mostrando quais ativos "
+    "concentram mais recursos e qual a tendência de movimentação da massa — deixando claro "
+    "que o painel é um retrato do que foi declarado à Receita Federal, não uma recomendação "
+    "de investimento"
 )
 
 # ------------------------------------------------------------------ fonte
